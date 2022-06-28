@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'BIZ UDGothic', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/back.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #e01d4e;
+}
+span{
+    color: #1de06b;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #1de06b;
+    transition: 0.4s ease;
+}
+.btn{
+    background-color: #1de06b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background-color: #e01d4e;
+    transform: scale(1.2);
+}
+.content-area{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #1de06b;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 10px 15px 15px;
+    border: 2px solid #1de06b;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #1de06b;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.main-text{
+    width: 550px;
+    text-align: justify;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-text h2{
+   color: white;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px; 
+}
+.main-text h5{
+    color: #e01d4e ;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.main-text p{
+    color: wheat;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.button{
+    background-color: #1de06b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s ease;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #e01d4e;
+}
+.service{
+    background-color: #000;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 74px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+}
+.card{
+    height: 370px;
+    width: 20%;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    font-size: 45px;
+    color: #e01d4e;
+    margin: 20px 0;
+}
+.card h5{
+    font-size: 25px;
+    color: wheat;
+    padding-bottom: 15px;
+}
+.para p{
+    color: azure;
+    padding: 0 5px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+.contact{
+    background-color: #191919;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.contact p{
+    color: white;
+    font-size: 40px;
+    padding: 80px 0;
+    font-weight: bolder;
+}
+.footer{
+    background-color: #000;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.footer h4{
+    padding: 160px 0 20px;
+    font-size: 35px;
+}
+.footer p{
+    color: wheat;
+    font-size: 20px;
+}
+.social{
+    margin: 30px 70px;     
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+.social i{
+    font-size: 25px;
+    background-color: #1de06b;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.social i:hover{
+    background-color: #e01d4e;
+}
+
